@@ -3,7 +3,8 @@
   "version": "1.1.1",
   "description": "A delicious pizza-themed Firefox theme",
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js",
+    "test": "node -e \"console.log('Validating manifest...'); JSON.parse(require('fs').readFileSync('manifest.json')); console.log('✓ manifest.json is valid')\""
   },
   "author": "Lilaflo <firefoxtheme@yesjust.click>",
   "license": "MIT",
