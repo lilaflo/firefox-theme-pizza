@@ -1,0 +1,13 @@
+{
+  "name": "pizza-ingredients-theme",
+  "version": "1.0.0",
+  "description": "A delicious pizza-themed Firefox theme",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "author": "Lilaflo <firefoxtheme@yesjust.click>",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^7.0.1"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Pizza Ingredients",
+  "version": "1.0",
+  "author": "Lilaflo <github@fackler.xyz>",
+  "homepage_url": "https://digitalna-reka.rs",
+  "description": "A delicious pizza-themed Firefox theme",
+  "theme": {
+    "colors": {
+      "frame": "#333333",
+      "tab_background_text": "#FFFFFF",
+      "toolbar": "#444444",
+      "toolbar_text": "#FFFFFF",
+      "toolbar_field": "#555555",
+      "toolbar_field_text": "#FFFFFF",
+      "toolbar_top_separator": "#333333",
+      "toolbar_bottom_separator": "#333333",
+      "toolbar_vertical_separator": "#333333"
+    },
+    "images": {
+      "theme_frame": "pizza.png",
+      "additional_backgrounds": ["pizza.png"]
+    },
+    "properties": {
+      "additional_backgrounds_alignment": ["top"],
+      "additional_backgrounds_tiling": ["repeat"]
+    }
+  }
+}
