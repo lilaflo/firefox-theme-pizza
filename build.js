@@ -5,7 +5,7 @@ const path = require('path');
 const { createWriteStream } = require('fs');
 const archiver = require('archiver');
 
-const THEME_NAME = 'cheese-theme';
+const THEME_NAME = 'pizza-ingredients-theme';
 const OUTPUT_FILE = `${THEME_NAME}.xpi`;
 
 // Files to include in the package
