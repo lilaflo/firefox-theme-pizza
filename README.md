@@ -35,6 +35,10 @@ This theme uses Firefox's built-in theming system. The colors are defined in the
 
 This creates `cheese-theme.xpi` which can be installed permanently in Firefox.
 
+## Attribution
+
+<a href="https://www.flaticon.com/free-icons/pizza" title="pizza icons">Pizza icons created by Freepik - Flaticon</a>
+
 ## License
 
 MIT License
