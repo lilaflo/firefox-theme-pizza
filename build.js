@@ -44,5 +44,10 @@ files.forEach(file => {
   }
 });
 
+// Add icons directory
+if (fs.existsSync('icons')) {
+  archive.directory('icons/', 'icons/');
+}
+
 // Finalize the archive
 archive.finalize();
